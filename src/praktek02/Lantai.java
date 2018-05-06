@@ -7,6 +7,13 @@ public class Lantai {
         panjang=4;
         lebar=3;
     }
+
+    public Lantai(double panjang, double lebar) {
+        this.panjang = panjang;
+        this.lebar = lebar;
+    }
+    
+    
     
     void cetakInfo(){
         System.out.println("====================");
