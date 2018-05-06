@@ -2,6 +2,11 @@ package praktek02;
 public class Lantai {
     double panjang;
     double lebar;
+
+    public Lantai() {
+        panjang=4;
+        lebar=3;
+    }
     
     void cetakInfo(){
         System.out.println("====================");
@@ -14,5 +19,9 @@ public class Lantai {
         double luas;
         luas=panjang*lebar;
         return luas;
+    }
+    
+    void cetakLuas(){
+        System.out.println("Luasnya adalah: "+hitungLuas());
     }
 }
