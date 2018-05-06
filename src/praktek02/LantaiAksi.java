@@ -7,5 +7,6 @@ public class LantaiAksi {
        L1.lebar = 4;
        
        L1.cetakInfo();
+       System.out.println("Luas lantai = "+L1.hitungLuas());
    } 
 }
